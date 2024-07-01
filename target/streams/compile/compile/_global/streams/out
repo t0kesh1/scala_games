@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\src\main\scala\Tree.scala:4:12: class Node needs to be abstract, since method fold in class Tree of type [A](acc: A)(op: (T, T, A) => A)Unit is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mcase class Node[T](value:T,left:Tree[T],right:Tree[T]) extends Tree[T][0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\src\main\scala\Tree.scala:5:13: object creation impossible, since method fold in class Tree of type [A](acc: A)(op: (Nothing, Nothing, A) => A)Unit is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mcase object Nil extends Tree[Nothing][0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

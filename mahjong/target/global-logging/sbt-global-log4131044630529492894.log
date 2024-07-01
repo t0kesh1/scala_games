@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(15823ac5-2fdb-47ce-b06a-becec4ece5d9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:15:61: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : MJ.Z[0m
+[0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
+[0m[[0m[31merror[0m] [0m[0m								if!( hai==Z(8)||hai==Z(9)||(k==暗順子&&i>7)||(k==暗順子&&Z(i)) ) ) yield ブロック(k,hai))[0m
+[0m[[0m[31merror[0m] [0m[0m								                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed 2023/12/12 4:40:03[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

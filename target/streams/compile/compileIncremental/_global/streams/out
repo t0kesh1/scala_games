@@ -1,0 +1,69 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 41 products, 6 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/example/arithmetic1.scala, ${BASE}/src/main/scala/Automaton.scala, ${BASE}/src/main/scala/mergeSortInFlatMap.scala, ${BASE}/src/main/scala/Tree.scala, ${BASE}/src/main/scala/shogipuzzle.scala, ${BASE}/src/main/scala/example/Hello.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/Tree.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/Tree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Node, Tree, Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Node, Tree, Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/Tree.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Node, Tree, Nil[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Nil by Tree[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\monoc\OneDrive\ドキュメント\scala\target\scala-2.11\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.11:1.5.7:compile for Scala 2.11.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 5e136f3f for Scala compiler version 2.11.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-feature[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.11.2\scala-library-2.11.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\monoc\OneDrive\ドキュメント\scala\target\scala-2.11\classes;C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalaz\scalaz-core_2.11\7.1.0\scalaz-core_2.11-7.1.0.jar;C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalaz\scalaz-effect_2.11\7.1.0\scalaz-effect_2.11-7.1.0.jar;C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scalaz\scalaz-typelevel_2.11\7.1.0\scalaz-typelevel_2.11-7.1.0.jar;C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.11\1.0.2\scala-parser-combinators_2.11-1.0.2.jar;C:\Users\monoc\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Node...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Node[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Node)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Node,ModifiedNames(changes = UsedName(fold,[Default]))) invalidates 1 classes due to The Node has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(fold,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Node)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Tree...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Tree[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Nil by Tree[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Node by Tree[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Nil, Tree, Node)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Tree,ModifiedNames(changes = UsedName(fold,[Default]))) invalidates 3 classes due to The Tree has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(fold,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Nil, Tree, Node)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Nil...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Nil[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Nil,ModifiedNames(changes = UsedName(fold,[Default]))) invalidates 1 classes due to The Nil has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(fold,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > by transitive inheritance: Set(Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m  > [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m

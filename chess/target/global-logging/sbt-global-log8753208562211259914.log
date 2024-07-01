@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(ef558400-d26a-4963-ad59-0205b2cba4c9), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mStarting scala interpreter...[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 98 s (01:38), completed 2022/03/21 17:16:42[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\backgammon\src\main\scala\backgammon.scala:11:41: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("quit")[0m
+[0m[[0m[31merror[0m] [0m[0m required: backgammon.GammonParser.Parser[List[(Int, Int)]][0m
+[0m[[0m[31merror[0m] [0m[0m    def quit: Parser[List[(Int,Int)]] = "quit"[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

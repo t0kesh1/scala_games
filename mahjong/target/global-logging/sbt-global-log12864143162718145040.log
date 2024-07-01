@@ -1,0 +1,90 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(73e9ec93-fc1f-46ff-98db-232bc9bed906), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:4:74: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m	val Shuntsus:List[Mentsu] = for(i <- List(1,2,3,4,5,6,7)) yield Shuntsu(i)[0m
+[0m[[0m[31merror[0m] [0m[0m	                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:14:82: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m			List.range(1,10) collect { case i:Int if(have(shupai,atama(i))) => List(Atama(i)) }[0m
+[0m[[0m[31merror[0m] [0m[0m			                                                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:29: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:40: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(7)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:49: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:58: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(9)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:67: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:76: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(9)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:86: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:28:96: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(9)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		val yaochu = List(Shuntsu(1),Shuntsu(7),Kotsu(1),Kotsu(9),Atama(1),Atama(9),Kantsu(1),Kantsu(9))[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:40:62: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(1)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		def ikkitsukan: (String,Int) = if(have(blocks,List(Shuntsu(1),Shuntsu(4),Shuntsu(7)))) if(blocks forall(_.open)) ("ittsu",2) else ("ittsu",1) else ("",0)[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:40:73: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(4)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		def ikkitsukan: (String,Int) = if(have(blocks,List(Shuntsu(1),Shuntsu(4),Shuntsu(7)))) if(blocks forall(_.open)) ("ittsu",2) else ("ittsu",1) else ("",0)[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:40:84: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(7)[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m		def ikkitsukan: (String,Int) = if(have(blocks,List(Shuntsu(1),Shuntsu(4),Shuntsu(7)))) if(blocks forall(_.open)) ("ittsu",2) else ("ittsu",1) else ("",0)[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:59:62: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m											case i:Int if(have(taken,shuntsu(i))) => (Shuntsu(i) :: blocks) sorted[0m
+[0m[[0m[31merror[0m] [0m[0m											                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\mahjong\src\main\scala\mahjong.scala:60:58: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Int, Char)[0m
+[0m[[0m[31merror[0m] [0m[0m											case i:Int if(have(taken,kotsu(i))) => (Kotsu(i) :: blocks) sorted[0m
+[0m[[0m[31merror[0m] [0m[0m											                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 2021/08/24 22:35:06[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

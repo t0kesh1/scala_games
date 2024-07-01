@@ -1,0 +1,51 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(], Some(41616c16-ea55-4d0c-b03c-7cf1ac875d7f), Some(CommandSource(console0)))[0m
+[0m[[0m[31merror[0m] [0m[0mExpected letter[0m
+[0m[[0m[31merror[0m] [0m[0mExpected symbol[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '+'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '++'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'java++'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'java+'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '^'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '^^'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '+-'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'debug'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'info'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'warn'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'error'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'addPluginSbtFile'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtRebootNetwork'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'show'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'print'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'all'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'Global'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '*'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'Zero'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'ThisBuild'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'ProjectRef('[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '{'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected project ID[0m
+[0m[[0m[31merror[0m] [0m[0mExpected configuration[0m
+[0m[[0m[31merror[0m] [0m[0mExpected configuration ident[0m
+[0m[[0m[31merror[0m] [0m[0mExpected key[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__disconnectNetworkChannel'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__waitWatch'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtPromptChannel'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected end of input.[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtRebootImpl'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'early('[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '-'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '--'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '!'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtReportResult'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtMapExec'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected 'sbtCompleteExec'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__failWatch'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__preWatch'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__postWatch'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__runWatch'[0m
+[0m[[0m[31merror[0m] [0m[0mExpected '__stopWatch'[0m
+[0m[[0m[31merror[0m] [0m[0m][0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 6 seconds, 5.057 (98.9%) were spent in GC. [Heap: 0.01GB free of 1.00GB, max 1.00GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 10 seconds, 9.773 (99.5%) were spent in GC. [Heap: 0.00GB free of 1.00GB, max 1.00GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m

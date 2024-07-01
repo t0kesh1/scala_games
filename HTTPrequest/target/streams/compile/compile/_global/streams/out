@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\monoc\OneDrive\ドキュメント\scala\HTTPrequest\src\main\scala\HTTPparser.scala:69:15: not found: value number[0m
+[0m[[0m[31merror[0m] [0m[0m  def angle = number <~ opt("deg" | "grad" | "rad")[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
